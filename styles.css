@@ -1,0 +1,13 @@
+document.getElementById('subscribeForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const email = document.getElementById('email').value;
+    const terminos = document.getElementById('terminos').checked;
+
+    if (terminos) {
+        alert(`Suscripción exitosa con el correo: ${email}`);
+        this.reset();
+    } else {
+        alert('Debes aceptar los términos y condiciones.');
+    }
+});
