@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+form {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin: 0.8rem 0 0.3rem;
+    font-weight: bold;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 1.2rem;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #218838;
+}
